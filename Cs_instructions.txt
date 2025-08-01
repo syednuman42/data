@@ -1,0 +1,50 @@
+As per the attached data I have to submit code and report - 
+1) Please create a few key performance indicators based on the available data and present the performance across the dimensions that you consider relevant. Highlight any insights drawn
+
+2) Please give a high level assessment of our internal credit score and it's rank-ordering capabilities. What changes in the policy, approach or any other parameters would you suggest changing based on the credit score?
+
+What changes and improvements to current strategy would you recommend?
+
+And answer these questions -
+
+Question 1 - Risk Trends
+
+In supplied information is sample loan tape from 2022. Please review questions and assess the loan tape, deliver insights and recommendations on how to improve profitability.
+
+Question 2 - Risk Monitoring
+
+In supplied information is sample Credit Committee Deck.
+Question - What insights do you have and recommendations you would draw from this?
+
+Question 3 - Risk Appetite & Strategy
+Define your vision for Company's risk appetite and how you would lead and influence the company.
+Define your operating model and team structure you recommend for success.
+
+
+In addition to the original instructions I want you to also consider doing the following -  Check for missing values in each column. Identify fields with blanks or “null” values.
+3. Examine date columns to ensure they make logical sense:
+   - Disbursement date must come before due date.
+   - Payment date must be after disbursement date.
+   - Flag any records where this isn’t true.
+4. Make sure all date formats are consistent (same format across all rows).
+5. Check for duplicates using user ID and loan details. Remove exact duplicates.
+6. Identify extreme values in numeric fields like loan amount or previous loans paid. Investigate whether they make sense.
+7. Clean up inconsistent text entries (e.g., 'Returning' vs 'returning'). Standardize these labels.
+8. Flag and isolate rows with invalid or illogical data rather than deleting them outright. They may offer useful insights into data quality.
+9. Calculate a few performance indicators from the clean data:
+   - Percentage of loans paid on or before the due date.
+   - Average delay in days between due date and actual payment.
+   - Default rate if possible (based on long payment delays or non-payment).
+   - Anomaly rate based on flagged inconsistencies.
+10. Segment data by categories like client type or loan month and compare performance across those groups.
+11. Assess internal credit score effectiveness:
+   - Rank loans by credit score from best to worst.
+   - Check how repayment behavior changes across score tiers.
+   - Look for a pattern where lower scores consistently perform worse.
+12. If the score doesn’t clearly separate good and bad borrowers, consider changing how it’s calculated or adding more predictive variables.
+13. Identify risk signals or weak spots in the data that could impact profitability (e.g., high late payment rate among certain clients).
+14. Suggest strategy changes like stricter lending criteria for higher-risk segments or improving the credit scoring formula.
+15. Recommend building systems to monitor repayment behavior and trigger alerts for risky trends.
+16. Outline a basic team structure that includes someone for cleaning data, someone for analytics, and someone for strategy.
+
+Then give me the code in downloadable py file and  final report as a docx file that includes all the analysis recommendations etc basically the final report to submit but the code should include all the things that are mentioned in the report in the same sequence as the report
